@@ -18,9 +18,13 @@ Bu proje, farklı otomobil markalarının logolarını içeren görüntüleri de
 - **Değerlendirme:** Accuracy/Loss grafikleri, Confusion Matrix, Classification Report, Grad-CAM görselleştirmeleri yapıldı.  
 
 ## Sonuçlar
-- MobileNetV2 tabanlı transfer learning modeli %100 doğrulukla test setini sınıflandırdı.  
-- Küçük veri seti nedeniyle bu sonuç **overfitting** göstergesi olabilir.  
-- Daha büyük ve çeşitlendirilmiş veri setleri ile denenmesi önerilmektedir.  
+- MobileNetV2 tabanlı transfer learning modeli %100 doğrulukla test setini sınıflandırdı.
+
+- Küçük veri seti nedeniyle bu sonuç overfitting göstergesi olabilir.
+
+- Daha büyük ve çeşitlendirilmiş veri setleri ile denenmesi önerilmektedir.
+
+- Ek: EfficientNetB0 ile yapılan denemede test doğruluğu ~%78 seviyesinde gerçekleşti. Bu, modelin aşırı öğrenmeyi azalttığını ve daha genel geçer sonuçlar üretebileceğini göstermektedir.
 
 ## Kaggle Notebook
 👉 [Notebooku buradan inceleyin](https://www.kaggle.com/code/atiyeutlu/car-brand-classification-f97baf)
